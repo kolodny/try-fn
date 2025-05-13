@@ -1,4 +1,4 @@
-export default <T>(
+const tryFn = <T>(
   fn: () => T
 ): T extends Promise<infer U> ? Promise<U | null> : T | null => {
   try {
@@ -12,3 +12,5 @@ export default <T>(
     return null as never;
   }
 };
+
+export = tryFn
