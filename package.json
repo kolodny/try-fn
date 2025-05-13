@@ -1,5 +1,5 @@
 {
-  "name": "try-fn",
+  "name": "fn-try",
   "version": "0.0.0",
   "description": "helper for simple try catch",
   "main": "lib/index.js",
