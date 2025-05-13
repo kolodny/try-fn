@@ -1,0 +1,26 @@
+{
+  "name": "try-fn",
+  "version": "0.0.0",
+  "description": "helper for simple try catch",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolodny/try-fn.git"
+  },
+  "keywords": [
+    "try",
+    "catch"
+  ],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolodny/try-fn/issues"
+  },
+  "homepage": "https://github.com/kolodny/try-fn#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
